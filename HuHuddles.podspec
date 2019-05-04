@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HuHuddles'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Install this library into your codebase to get access to Huddles.'
 
 # This description is used to generate tags and improve search results.
