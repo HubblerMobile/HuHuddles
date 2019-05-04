@@ -45,7 +45,7 @@
 		7769D50493B54ACCE87323CD /* Pods-HuHuddles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuHuddles_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuHuddles_Tests/Pods-HuHuddles_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		863F83062AA30D08FDC709E4 /* Pods-HuHuddles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuHuddles_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuHuddles_Tests/Pods-HuHuddles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		89BC0CE649C15CA9A4CFE2CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C2CE79A14A2258EC8725D0C7 /* HuHuddles.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HuHuddles.podspec; path = ../HuHuddles.podspec; sourceTree = "<group>"; };
+		C2CE79A14A2258EC8725D0C7 /* HuHuddles.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HuHuddles.podspec; path = ../HuHuddles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FBE450EB27597B8689300DB8 /* Pods-HuHuddles_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuHuddles_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuHuddles_Example/Pods-HuHuddles_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
