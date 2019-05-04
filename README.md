@@ -1,4 +1,5 @@
 # HuHuddles
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/priyamdutta/HuHuddles.svg?style=flat)](https://travis-ci.org/priyamdutta/HuHuddles)
 [![Version](https://img.shields.io/cocoapods/v/HuHuddles.svg?style=flat)](https://cocoapods.org/pods/HuHuddles)
@@ -27,3 +28,4 @@ priyamdutta, priyam.sm93@gmail.com
 ## License
 
 HuHuddles is available under the MIT license. See the LICENSE file for more info.
+
