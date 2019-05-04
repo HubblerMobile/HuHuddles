@@ -1,0 +1,6 @@
+framework module HuHuddles {
+  umbrella header "HuHuddles-umbrella.h"
+
+  export *
+  module * { export * }
+}

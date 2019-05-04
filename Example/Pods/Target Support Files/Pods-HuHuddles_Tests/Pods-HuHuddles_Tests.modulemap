@@ -1,0 +1,6 @@
+framework module Pods_HuHuddles_Tests {
+  umbrella header "Pods-HuHuddles_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
