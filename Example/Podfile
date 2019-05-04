@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HuHuddles_Example' do
+  pod 'HuHuddles', :path => '../'
+
+  target 'HuHuddles_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
