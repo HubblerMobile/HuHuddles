@@ -8,17 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+open class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    open override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+open class FrameTest {
+    
+    public init() {
+    }
+    
+    public func testFrame() {
+    }
 }
 

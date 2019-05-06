@@ -1,0 +1,11 @@
+framework module HuddleFramework {
+  umbrella header "HuddleFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HuddleFramework.Swift {
+    header "HuddleFramework-Swift.h"
+    requires objc
+}
