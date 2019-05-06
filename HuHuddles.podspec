@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HuHuddles'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Install this library into your codebase to get access to Huddles.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Projects & tasks a.k.a Huddles is a task management module. It provides a collab
   s.author           = { 'priyamdutta' => 'priyam.sm93@gmail.com' }
   s.source           = {
     :git => 'https://github.com/HubblerMobile/HuHuddles/tree/master/HuHuddles/Framework/HuddleFramework.framework',
-    :tag => '0.1.2'
+    :tag => '0.1.3'
   }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
