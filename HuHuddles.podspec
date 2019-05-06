@@ -25,12 +25,15 @@ Projects & tasks a.k.a Huddles is a task management module. It provides a collab
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'priyamdutta' => 'priyam.sm93@gmail.com' }
-  s.source           = { :git => 'https://github.com/HubblerMobile/HuHuddles.git', :tag => s.version.to_s }
+  s.source           = {
+    :git => 'https://github.com/HubblerMobile/HuHuddles.git',
+    :tag => '0.1.2'
+  }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
-  s.source_files = 'HuHuddles/Classes/**/*'
+  s.source_files = 'HuHuddles/Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'HuHuddles' => ['HuHuddles/Assets/*.png']

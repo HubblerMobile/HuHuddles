@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		08F0EEF422801BC1009D81B9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E1C1559B9447C70FBA4BE978EF9B9 /* ReplaceMe.swift */; };
-		08F0EF2922803591009D81B9 /* HuddleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F0EF2822803591009D81B9 /* HuddleFramework.framework */; };
+		08F0EF2D2280525D009D81B9 /* HuddleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F0EF2C2280525D009D81B9 /* HuddleFramework.framework */; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,7 +68,7 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		07504528E7B9621BB1750399625B7014 /* HuHuddles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HuHuddles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		08F0EF2822803591009D81B9 /* HuddleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HuddleFramework.framework; sourceTree = "<group>"; };
+		08F0EF2C2280525D009D81B9 /* HuddleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HuddleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -142,11 +142,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F0EF2D2280525D009D81B9 /* HuddleFramework.framework in Frameworks */,
 				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
 				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
 				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
 				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
-				08F0EF2922803591009D81B9 /* HuddleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,15 +187,6 @@
 			path = "Target Support Files/Pods-HuHuddles_Tests";
 			sourceTree = "<group>";
 		};
-		08F0EF2722803591009D81B9 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				08F0EF2822803591009D81B9 /* HuddleFramework.framework */,
-			);
-			name = Framework;
-			path = HuHuddles/Classes/Framework;
-			sourceTree = "<group>";
-		};
 		097CECBEC78B3422E06F685A8295835D /* Pods-HuHuddles_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +208,7 @@
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				08F0EF2C2280525D009D81B9 /* HuddleFramework.framework */,
 				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
 			);
 			name = Frameworks;
@@ -261,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				BF0E1C1559B9447C70FBA4BE978EF9B9 /* ReplaceMe.swift */,
-				08F0EF2722803591009D81B9 /* Framework */,
 				99A905BE26EF91D288A2C7CDF341CF69 /* Pod */,
 				D2BB015128B735FC96584031189968E4 /* Support Files */,
 			);
