@@ -10,6 +10,7 @@
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		08F0EEF422801BC1009D81B9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E1C1559B9447C70FBA4BE978EF9B9 /* ReplaceMe.swift */; };
 		08F0EF2D2280525D009D81B9 /* HuddleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F0EF2C2280525D009D81B9 /* HuddleFramework.framework */; };
+		08F0EF2F22805D8C009D81B9 /* HuddleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F0EF2E22805D8C009D81B9 /* HuddleFramework.framework */; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +70,7 @@
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		07504528E7B9621BB1750399625B7014 /* HuHuddles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HuHuddles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		08F0EF2C2280525D009D81B9 /* HuddleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HuddleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F0EF2E22805D8C009D81B9 /* HuddleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HuddleFramework.framework; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
 				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
 				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+				08F0EF2F22805D8C009D81B9 /* HuddleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +315,7 @@
 		D2BB015128B735FC96584031189968E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				08F0EF2E22805D8C009D81B9 /* HuddleFramework.framework */,
 				8953ED1BE4E460E5E3FCA94B5CFD96E0 /* HuHuddles.modulemap */,
 				EF8F362672791426209A54E5E709B49A /* HuHuddles.xcconfig */,
 				DAF2DC7141011F81BEAD654977344A15 /* HuHuddles-dummy.m */,
@@ -586,6 +590,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Target\\ Support\\ Files/HuHuddles",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -944,6 +952,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Target\\ Support\\ Files/HuHuddles",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
