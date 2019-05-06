@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HuddleFramework-Swift.h</key>
 		<data>
-		rHkr1ExfcFxzkOmX7m/zgM7IxGE=
+		ar1RHtWAzz5Q6q/sPseGSt1atGA=
 		</data>
 		<key>Headers/HuddleFramework.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/HuddleFramework.swiftmodule/arm.swiftdoc</key>
 		<data>
-		mfYDKUcOypD9ahGk+1FEuzz2VtM=
+		17yomuSa77hBSwqFZBh3rPK1/Ck=
 		</data>
 		<key>Modules/HuddleFramework.swiftmodule/arm.swiftmodule</key>
 		<data>
-		22D+056C1bkAWSI4KgnO1mYaeok=
+		iZ4VkTIAV2D97BDIJMU/xa5UuDs=
 		</data>
 		<key>Modules/HuddleFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		J7fSB+XZ6D/NqeoyyDi9/r8iPkY=
+		ew5i+NN7uILHmfW3RmSGdm3C0lg=
 		</data>
 		<key>Modules/HuddleFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		wy3nFIAlphPwd36+d7HgTvoO2Sg=
+		eM6i/pZE1aOLY9ktE6wj8YjOW80=
 		</data>
 		<key>Modules/HuddleFramework.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		mfYDKUcOypD9ahGk+1FEuzz2VtM=
+		17yomuSa77hBSwqFZBh3rPK1/Ck=
 		</data>
 		<key>Modules/HuddleFramework.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		22D+056C1bkAWSI4KgnO1mYaeok=
+		iZ4VkTIAV2D97BDIJMU/xa5UuDs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rHkr1ExfcFxzkOmX7m/zgM7IxGE=
+			ar1RHtWAzz5Q6q/sPseGSt1atGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			M+DCT8pZ7KiUBCNOlxuZ91nf7MentUyAQ7ZS6RMbBXc=
+			fq7rwNhIsFN6Cerol/LpU/F7wqJONu+HegexML+CtwA=
 			</data>
 		</dict>
 		<key>Headers/HuddleFramework.h</key>
@@ -73,66 +73,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mfYDKUcOypD9ahGk+1FEuzz2VtM=
+			17yomuSa77hBSwqFZBh3rPK1/Ck=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uol+EfpOvsslEJd3LVm4zcXm8exgekxEvREaF8PkhVY=
+			hlM6jeG0KYDzYszpzi91FR2VFH+zAVSymMg9arYlqS8=
 			</data>
 		</dict>
 		<key>Modules/HuddleFramework.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			22D+056C1bkAWSI4KgnO1mYaeok=
+			iZ4VkTIAV2D97BDIJMU/xa5UuDs=
 			</data>
 			<key>hash2</key>
 			<data>
-			q5grxUuRNM1rNWvlx5aCfC91VcyHhilsUIdXfGlNvq0=
+			2o/eqQxT1IgwrRq1HhyMlCPdGCj2TIn4MbCShZKPYJU=
 			</data>
 		</dict>
 		<key>Modules/HuddleFramework.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J7fSB+XZ6D/NqeoyyDi9/r8iPkY=
+			ew5i+NN7uILHmfW3RmSGdm3C0lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			/CgmybkVjv+een233Ydcfd0pJq8wRzH1YqO4E1Ouh/k=
+			VuWy6DT48My/7i8ZBPT0y/XCgTfeZ4TBWCl+ChGrtsA=
 			</data>
 		</dict>
 		<key>Modules/HuddleFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wy3nFIAlphPwd36+d7HgTvoO2Sg=
+			eM6i/pZE1aOLY9ktE6wj8YjOW80=
 			</data>
 			<key>hash2</key>
 			<data>
-			RS3ieRlAP0ot0I1uWtZ/pYsTpfTNTD3DjtC4lZhVkhw=
+			Q57gErXjjkIH90aUpS6teA4L7wvrtTwGAJgEDzdn7W4=
 			</data>
 		</dict>
 		<key>Modules/HuddleFramework.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mfYDKUcOypD9ahGk+1FEuzz2VtM=
+			17yomuSa77hBSwqFZBh3rPK1/Ck=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uol+EfpOvsslEJd3LVm4zcXm8exgekxEvREaF8PkhVY=
+			hlM6jeG0KYDzYszpzi91FR2VFH+zAVSymMg9arYlqS8=
 			</data>
 		</dict>
 		<key>Modules/HuddleFramework.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			22D+056C1bkAWSI4KgnO1mYaeok=
+			iZ4VkTIAV2D97BDIJMU/xa5UuDs=
 			</data>
 			<key>hash2</key>
 			<data>
-			q5grxUuRNM1rNWvlx5aCfC91VcyHhilsUIdXfGlNvq0=
+			2o/eqQxT1IgwrRq1HhyMlCPdGCj2TIn4MbCShZKPYJU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
