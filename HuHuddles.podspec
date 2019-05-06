@@ -23,10 +23,11 @@ Projects & tasks a.k.a Huddles is a task management module. It provides a collab
 
   s.homepage         = 'https://github.com/HubblerMobile/HuHuddles'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # https://github.com/HubblerMobile/HuHuddles.git
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'priyamdutta' => 'priyam.sm93@gmail.com' }
   s.source           = {
-    :git => 'https://github.com/HubblerMobile/HuHuddles.git',
+    :git => 'https://github.com/HubblerMobile/HuHuddles/tree/master/HuHuddles/Framework/HuddleFramework.framework',
     :tag => '0.1.2'
   }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
